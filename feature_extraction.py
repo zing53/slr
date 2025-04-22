@@ -82,3 +82,6 @@ def get_processed_csv():
     df_processed.to_csv("./data/processed_hand_landmarks.csv", index=False)
 
     print("数据处理完成，已保存为processed_hand_landmarks.csv")
+    
+get_csv()
+get_processed_csv()
