@@ -6,7 +6,7 @@ https://github.com/ardamavi/Sign-Language-Digits-Dataset
 
 #### 在colab上实现了从训练到图片手势检测
 
-<a href=\"https://colab.research.google.com/github/zing53/slr/blob/main/slr_final.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zing53/slr/blob/main/slr_final.ipynb)
 
 #### 手势对照:
 
