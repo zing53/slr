@@ -13,6 +13,8 @@ from mediapipe.framework.formats import landmark_pb2
 MODEL_PATH = "/content/slr/model/hand_landmarker.task"
 KNN_MODEL_PATH = "/content/slr/model/knn_slr_model.pkl"
 SCALER_PATH = '/content/slr/model/distance_scaler.pkl'
+K = 5
+
 # 绘制手部关键点
 MARGIN = 10  # pixels
 FONT_SIZE = 1
@@ -54,11 +56,6 @@ def draw_landmarks_on_image(rgb_image, detection_result):
         #             FONT_SIZE, HANDEDNESS_TEXT_COLOR, FONT_THICKNESS, cv2.LINE_AA)
 
     return annotated_image
-
-K = 5 # 模型原本是3
-MODEL_PATH = "/content/slr/model/hand_landmarker.task"
-KNN_MODEL_PATH = "/content/slr/model/knn_slr_model.pkl"
-SCALER_PATH = '/content/slr/model/distance_scaler.pkl'
 
 def crop_pic(annotated_image, landmarks, margin=100):
 
